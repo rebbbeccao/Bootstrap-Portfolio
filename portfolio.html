@@ -1,85 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
-	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
 </head>
 
 <body>
-<!--HEADER-->
-<header id="masthead">
-<div class="container">	
-<a href="index.html" id="logo">
-	Rebecca A. Olson
-	</a>
-<nav>
-	<a href="index.html">About</a>
-	<a href="portfolio.html">Portfolio</a>
-	<a href="Contact.html">Contact</a>
-</nav>	
-</div>
-</header>
+	<!--HEADER-->
+	<header id="masthead">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+						 aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Portfolio</a>
+					</div>
 
-<!--PORTFOLIO-->	
-<div id="main-container" class="container">
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="./contact.html">Contact</a>
+							</li>
+							<li>
+								<a href="./index.html">About Me</a>
+							</li>
+							</li>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+	</header>
 
-<section class="main-section">
+	<!--PORTFOLIO-->
+	<div id="main-container" class="container">
 
-	<h1>Portfolio</h1>
+		<div class="row">
+			<h1>Portfolio</h1>
+		</div>
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="col-sm-4 col-md-2">
+					<div class="thumbnail" style="height: 250px; width: auto;">
+						<img src="Assets/Images/tablet.png" alt="Hangman Image">
+						<div class="caption">
+							<h4>Hangman</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-2">
+					<div class="thumbnail" style="height: 250px; width: auto;">
+						<img src="Assets/Images/turntables.png" alt="RPG Game Image">
+						<div class="caption">
+							<h4>RPG Game</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-2">
+					<div class="thumbnail" style="height: 250px; width: auto;">
+						<img src="Assets/Images/girl headphones.png" alt="Trivia Game Image">
+						<div class="caption">
+							<h4>Trivia Game</h4>
+						</div>
+					</div>
+				</div>
 
-	<div class="work">
-		<img src="Assets/Images/tablet.png" class="auth-image" alt="Hangman Image">
-		<h3>Hangman</h3>
-	</div>	
+				<div class="col-sm-4 col-md-2">
+					<div class="thumbnail" style="height: 250px; width: auto;">
+						<img src="Assets/Images/code.png" alt="Rutgers Info Widget Image">
+						<div class="caption">
+							<h4>Rutgers Info Widget</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-2">
+					<div class="thumbnail" style="height: 250px; width: auto;">
+						<img src="Assets/Images/twinkle headphones.png" alt="Rock Paper Scissors Image">
+						<div class="caption">
+							<h4>Rock Paper Scissors</h4>
+						</div>
+					</div>
+				</div>
 
-	<div class="work">
-		<img src="Assets/Images/turntables.png" class="auth-image" alt="RPG Game Image">
-		<h3>RPG Game</h3>
-	</div>	
-
-	<div class="work">
-		<img src="Assets/Images/girl headphones.png" class="auth-image" alt="Trivia Game Image">
-		<h3>Trivia Game</h3>
-	</div>	
-
-	<div class="work">
-		<img src="Assets/Images/code.png" class="auth-image" alt="Rutgers Info Widget Image">
-		<h3>Rutgers Info Widget</h3>
-	</div>	
-
-	<div class="work">
-		<img src="Assets/Images/twinkle headphones.png" class="auth-image" alt="Rock Paper Scissors Image">
-		<h3>Rock Paper Scissors</h3>
-	</div>	
+			</div>
 
 
-</section>
+			<!--CONNECT W ME-->
 
-
-<!--CONNECT W ME-->
-<section id="Sidebar"> 
-	<div id="connect">
-		<h2>Connect with Me</h2>
-		
-		<img src="Assets/Images/linkedin.png" class="social" alt="Linkedin">
-		<img src="Assets/Images/stackoverflow.png" class="social" alt="Stackoverflow">
-		<img src="Assets/Images/github.png" class="social" alt="Github" style=>
-
-		
-		
-	</div>	
-</section>
-</div>		
-	
-<!--FOOTER-->
-<footer>
-	<div class="container">
-	&copy; Copyright 2017 Rebecca A. Olson
+			<div class="col-sm-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							Connect with Me</h3>
+					</div>
+					<div class="panel-body">
+						<img src="Assets/Images/linkedin.png" class="social" alt="Linkedin" style="width: 45px">
+						<img src="Assets/Images/stackoverflow.png" class="social" alt="Stackoverflow" style="width: 45px">
+						<img src="Assets/Images/github.png" class="social" alt="Github" style="width: 45px">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</footer>
-	
 
+
+	</div>
+	<!--FOOTER-->
+	<div class="row">
+		<footer>
+			<div class="container">
+				&copy; Copyright 2017 Rebecca A. Olson
+			</div>
+		</footer>
+	</div>
+	</div>
 </body>
+
 </html>
